@@ -5,8 +5,7 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <Header title={"Maxim Blog"} />
-      <Link to="/"> Back Home</Link>
-
+      <Link to="/"> Go Home</Link>
       <div>Welcome!!!</div>
       <img
         src="https://c.tenor.com/eaDPAe9OLSoAAAAd/cat-kissing.gif"
@@ -23,9 +22,7 @@ const AboutPage = () => {
         alt="Cool emoji"
         width="250"
       />
-      <div>
-        This is my blog, here you can read 'interesting' articles written by me.
-      </div>
+      <div>This is my blog, here you can read articles written by me.</div>
     </div>
   );
 };

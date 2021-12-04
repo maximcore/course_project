@@ -8,7 +8,6 @@ import AboutPage from "./components/AboutPage";
 import NotFoundPage from "./components/NotFoundPage";
 
 function App() {
-  const title = "Maxim Blog";
   return (
     <BrowserRouter>
       <div className="container">
