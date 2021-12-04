@@ -1,7 +1,7 @@
 import { Post } from "./Post";
 
 // name, description, image url, image atl, id
-let list: Post[] = [
+export const postsList: Post[] = [
   new Post(
     "About me",
     "About me",

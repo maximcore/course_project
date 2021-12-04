@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import Header from "./Header";
 
+import { postsList } from "./Data";
+
 const NotFoundPage = () => {
   return (
     <div className="center">
